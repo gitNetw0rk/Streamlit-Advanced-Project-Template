@@ -57,6 +57,17 @@ def render_page_content(page_content):
             st.write(para_text)
 
 
+col1, col2 = st.columns([50, 50])
+with col1:
+    st.link_button(
+        "**GitHub Repository**",
+        "https://github.com/gitNetw0rk/Streamlit-Advanced-Project-Template",
+    )
+with col2:
+    st.link_button(
+        "**Live App Preview**", "https://advanced-project-template.streamlit.app/"
+    )
+
 # Read and display page content
 page_content = read_docx_file(file_path="sapt_tutorials.docx")
 render_page_content(page_content)
