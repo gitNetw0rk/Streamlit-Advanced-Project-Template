@@ -1,4 +1,10 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="Home | Streamlit Advanced Project Template",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
 from docx import Document
 
 
