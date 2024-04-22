@@ -60,5 +60,3 @@ def render_page_content(page_content):
 # Read and display page content
 page_content = read_docx_file(file_path="sapt_tutorials.docx")
 render_page_content(page_content)
-
-st.stop()
