@@ -1,0 +1,12 @@
+# config manual> https://docs.astral.sh/ruff/configuration/
+
+# Ignore↓
+    # multiple-imports-on-one-line (E401)
+    # module-import-not-at-top-of-file (E402)
+ignore = ["E401", "E402"]
+
+# Allow lines to be as long as 120.
+line-length = 100
+
+# Set number of spaces per indentation level (tab).
+indent-width = 4

@@ -1,0 +1,3 @@
+[client]
+# Need to turn off in order to use pages/ folder but not get that default menu
+showSidebarNavigation = false
