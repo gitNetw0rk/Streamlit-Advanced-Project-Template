@@ -4,7 +4,7 @@ import streamlit as st
 from docx import Document
 
 
-# @st.cache_resource(ttl="5d")
+@st.cache_resource(ttl="5d")
 def render_readme_file_content():
     # inspiration> https://github.com/avrabyt/Streamlit-Readme-to-App
     with open("README.md", "r") as f:
