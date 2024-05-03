@@ -12,7 +12,7 @@
 ### People Data Information System (/pdis)
 * Contains code parts of an imaginary system developed for the sake of SAPT and related tutorial.
 * This code is for demo purposes and is not maintained after related tutorial was released.
-* See [latest code preview](/pdis_demo) in the main menu.
+* See [latest code preview](/demo_pdis) in the main menu.
 
 ### Tutorials (/tutorials)
 * Contains tutorial related to SAPT and PDIS with a focus on data modelling and programming basics.

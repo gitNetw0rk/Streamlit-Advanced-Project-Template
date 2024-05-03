@@ -1,6 +1,10 @@
 import streamlit as st
 
 
-def run_streamlit_locally():
+def main():
     st.title("People Data Information System")
     st.balloons()
+
+
+if __name__ == "__main__":
+    main()
