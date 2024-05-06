@@ -16,11 +16,15 @@
 
 ### Tutorials (/tutorials)
 * Contains tutorial related to SAPT and PDIS with a focus on data modelling and programming basics.
-* Follow me on LinkedIn for updates. See top right corner > three dot menu > About.
 * See [whole tutorial content](/tutorials) in the main menu or download it from GitHub.
+* Follow my [LinkedIn for tutorial updates](https://www.linkedin.com/in/marianstancik/).
+
+### Experimental apps (/experiments)
+* Contains experimental apps supporting SAPT and PDIS development.
+
 
 ### Requirements.txt
-* Contains packages used throughout SAPT development, PDIS demos and tutorial deliveries. 
+* Contains packages used throughout SAPT development, experiments and PDIS demos and tutorial deliveries. 
 * Install only packages needed for a specific application based on SAPT.
 
 

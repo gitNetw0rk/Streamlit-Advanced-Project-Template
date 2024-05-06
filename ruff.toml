@@ -6,7 +6,7 @@
 ignore = ["E401", "E402"]
 
 # Allow lines to be as long as 120.
-line-length = 100
+line-length = 120
 
 # Set number of spaces per indentation level (tab).
 indent-width = 4

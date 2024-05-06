@@ -4,9 +4,7 @@ st.set_page_config(
     page_title="Tutorials | Streamlit Advanced Project Template",
     layout="centered",
     initial_sidebar_state="auto",
-    menu_items={
-        "About": "For updates on template and tutorial follow my LinkedIn> www.linkedin.com/in/marianstancik/"
-    },
+    menu_items={"About": "For updates on template and tutorial follow my LinkedIn> www.linkedin.com/in/marianstancik/"},
 )
 
 from sapt import cms, ctrl
