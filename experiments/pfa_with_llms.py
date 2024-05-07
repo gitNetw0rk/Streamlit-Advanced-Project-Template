@@ -531,7 +531,7 @@ def render_download_data_menu(**kwargs):
                 label=":floppy_disk: data products",
                 data=data2download,
                 file_name=kwargs["target_file_name4zip"],
-                help="Once available, it might take few seconds to download. **Data products are not regenerated for download on the server; download and run the app locally to use this feature.**",
+                help="Once available, it might take few seconds to download.",
                 use_container_width=True,
                 # Prepare download package in the background (callback function)
                 on_click=prepare_and_zip_files,
@@ -629,6 +629,7 @@ def main():
             **Pseudo Factor Analysis of Language Embedding Similarity Matrices: New Ways to Model Latent Constructs**
             (by Nigel Guenole, Epifanio Damiano D'Urso, Andrew Samo, Tianjun Sun)
 
+            [App live demo](https://advanced-project-template.streamlit.app/experiments)
             """
         )
         st.code(
@@ -644,6 +645,11 @@ def main():
             streamlit==1.33.0
             tensorflow_hub==0.16.1
             """
+        )
+
+        # Streamlit Cloud usage user warning
+        st.warning(
+            "**Data products for download are not updated on the server. App on Streamlit Cloud Server returns full package by default. Clone and run the app locally to use data product updates properly.**"
         )
 
         # Allow users to download data sources used and produced by the app
