@@ -619,7 +619,7 @@ def main():
         st.subheader("Pseudo-Factor Analysis with Large Language Models")
         st.markdown(
             """
-            This app demostrates Python and Streamlit to present and deploy data analyses live on the cloud. 
+            This app demostrates Python and Streamlit to develop, present and deploy data analyses live on the cloud. 
 
             A part of the 'HEXACO project' was used for this purpose.
             Source datasets were slightly adjusted (semicolon separation, headers and symbols). 
